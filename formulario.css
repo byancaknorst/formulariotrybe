@@ -18,12 +18,10 @@ body {
 
 
 h2 {
-    margin-left: 15%;
     text-align: center;
 }
 
 form {
-    margin-left: 15%;
     text-align: left;
 }
 
@@ -36,8 +34,13 @@ input, select, textarea {
     margin: 5px 5px;
 }
 
+.about-area label{
+    display: block;    
+}
+
 main {
     max-width: 60%;
+    margin: 0 auto; 
 }
 
 button {
@@ -46,6 +49,8 @@ button {
     background-color: #036b52;
     color: whitesmoke;
     border-radius: 25px;
+    display: block;
+    margin: 0 auto;
 }
 
 
