@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho {
+    background-color: #036b52;
+    margin-bottom:5px;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #2fc18c;
+    font-family: 'Monda', sans-serif;
+    color: #132a13;
+}
+
+
+h2 {
+    margin-left: 15%;
+    text-align: center;
+}
+
+form {
+    margin-left: 15%;
+    text-align: left;
+}
+
+input, select, textarea {
+    background-color: #f5f3f4;
+}
+
+.campo {
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+main {
+    max-width: 60%;
+}
+
+button {
+    font-family: 'Monda', sans-serif;
+    padding: 3%;
+    background-color: #036b52;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Cadastro Trybe <img src="https://emoji.slack-edge.com/TMDDFEPFU/trybe/54202dc3a934a845.png" style="width:35px" alt="Icone Trybe" class="icone"></h1>
+    </header>
+    <main>
+        <h2 class="titulo"> <p>Cadastre as informações abaixo</p></h2>
+        <form>
+            <fieldset>
+                <div class="campo">
+                    <label for="nome">Nome: </label>
+                    <input id="nome" type="text" name="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input id="sobrenome" type="text" name="sobrenome" required>
+                </div>
+            </fieldset>
+            <section>
+                <div class="campo">
+                    <label for="nomeSlack">Nome no Slack: </label>
+                    <input id="slack" type="text" name="slack" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" name="email" required>
+                </div>
+                <div class="campo"> 
+                    <label>Data de nascimento: </label>
+                    <input id="data" type="date" name="data" required>
+                </div>
+                <div class="campo">
+                    <label for="cidade">Onde você mora? </label>
+                    <input id="cidade" type="text" name="cidade" required>
+                </div>
+                <div class="campo">
+                    <label>Você é da equipe da Trybe ou aluno?</label>
+                    <label>
+                        <input type="radio" name="equipe" value="equipe">Equipe da Trybe
+                    </label>
+                    <label>
+                        <input type="radio" name="aluno" value="aluno">Aluno
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="turma">Você pertece a qual turma?</label>
+                    <select id="turma">
+                    <option value="turma1">Turma 1</option>
+                    <option value="turma2">Turma 2</option>
+                    <option value="turma3">Turma 3</option>
+                    <option value="turma4">Turma 4</option>
+                    <option value="turma5">Turma 5</option>
+                    <option value="turma6">Turma 6</option>
+                    <option value="turma7">Turma 7</option>
+                    <option value="turma8">Turma 8</option>
+                    <option value="turma9">Turma 9</option>
+                    <option value="turma10">Turma 10</option>
+                    <option value="turma11">Turma 11</option>
+                    <option value="turma12">Turma 12</option>
+                    <option value="turma13">Turma 13</option>
+                    <option value="turma14">Turma 14</option>
+                    <option value="turma15">Turma 15</option>
+                    <option value="turma16">Turma 16</option>
+                    <option value="turma17">Turma 17</option>
+                    <option value="turmaxp">Turma XP</option>
+                    <option value="turma19">Turma 19</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label>Você pertence a qual tribo?
+                    <input type="radio" name="triboa" value="triboa">Tribo A
+                    </label>
+                    <label>
+                        <input type="radio" name="tribob" value="tribob">Tribo B
+                        </label>
+                </div>
+                <fieldset class="campo">
+                    <div id="interesses">
+                        <label>Selecione as opções que são do seu interesse:<br></label>
+                        <input type="checkbox" id="interesses" name="interesses" value="musica">
+                        <label>Música</label>
+                        <input type="checkbox" id="interesses" name="interesses" value="animais">
+                        <label>Animais</label>
+                        <input type="checkbox" id="interesses" name="interesses" value="esportes">
+                        <label>Esportes</label>
+                        <input type="checkbox" id="interesses" name="interesses" value="viagens">
+                        <label>Viagens</label>
+                        <input type="checkbox" id="interesses" name="interesses" value="games">
+                        <label>Games</label>
+                        <input type="checkbox" id="interesses" name="interesses" value="series">
+                        <label>Séries</label>
+                        <input type="checkbox" id="interesses" name="interesses" value="filmes">
+                        <label>Filmes</label>
+                        <input type="checkbox" id="interesses" name="interesses" value="livros">
+                        <label>Livros</label>
+                    </div>
+                </fieldset>
+                <section class="campo" id="sobre">
+                    <label>Conte um pouco sobre você:</label>
+                    <textarea rows="10" style="width:50em" id="sobre" name="sobre"></textarea>
+                </section>
+            </section>           
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+</body>
+</html>
+<!-- Referencia: https://www.youtube.com/watch?v=wwqOJ2o84S4 -->
+<!-- Desenvolvimento: Byanca Knorst e Marina Barros -->
