@@ -14,6 +14,7 @@ body {
   background-color: #2fc18c;
   font-family: 'Monda', sans-serif;
   color: #132a13;
+  font-size: 22px;
 }
 
 
@@ -62,4 +63,27 @@ button {
 
 button:hover {
   background-color: #045240;
+}
+
+.about-area{
+  display: block;
+}
+.text-area{
+  display: block;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: rgba(4, 82, 64, 0.5);
+  border: solid 5px #045240;
+  border-radius: 15px;
+
+  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
+
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+
+  padding: 15px;
 }
